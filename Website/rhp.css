@@ -1,0 +1,75 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 30px;
+    padding: 0;
+    background: url("https://images.unsplash.com/photo-1582407947304-fd86f028f716?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVhbCUyMGVzdGF0ZXxlbnwwfHwwfHw%3D&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size:100% 100%;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #f32160;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.1);
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(255,255,255,0.8);
+}
+
+
+button[type="button"] {
+    background-color: #079cff;
+    color: #fff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color .3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0044fffd;
+}
+
+.output-box {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.1);
+    display: none;
+    background-color: #FFEB3B;
+}
+
+.output-box h2 {
+    margin-top: 0;
+    color: #fff;
+    font-weight: 500;
+}
+
+html {
+    height: 100%;
+  }

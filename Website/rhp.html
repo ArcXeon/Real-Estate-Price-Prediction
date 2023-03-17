@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Real Estate Price Prediction</title>
+	<link rel="stylesheet" type="text/css" href="rhp.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="rhp.js"></script>
+</head>
+<body>
+	<h1>Bangalore Real Estate Price Prediction</h1>
+	<form>
+		<label for="area">Area (in sq.ft.):</label>
+		<input class="area" type="text" id="uiArea" class="floatLabel" name="Squareft" required>
+
+		<label for="bhk">BHK:</label>
+		<select id="uibhk" required>
+			<option value="">Select BHK</option>
+			<option value="1">1 BHK</option>
+			<option value="2">2 BHK</option>
+			<option value="3">3 BHK</option>
+			<option value="4">4 BHK</option>
+			<option value="5">5 BHK</option>
+		</select>
+
+		<label for="bathrooms">Bathrooms:</label>
+		<select id="uiBathrooms" required>
+			<option value="">Select Bathrooms</option>
+			<option value="1">1 Bathroom</option>
+			<option value="2">2 Bathrooms</option>
+			<option value="3">3 Bathrooms</option>
+			<option value="4">4 Bathrooms</option>
+			<option value="5">5 Bathrooms</option>
+		</select>
+
+		<label for="location">Location:</label>
+		<select class="location" id="uiLocations">
+			<option value="" disabled="disabled" selected="selected">Choose a Location</option>
+		</select>
+
+		<button class="submit" type="button" onclick="onClickedEstimatePrice()">Estimate Price</button>
+		<div id="uiEstimatedPrice" class="result"></div>
+
+	</form>
+
+</body>
+</html>
