@@ -14,3 +14,6 @@ First, Data Preprocessing- data loading and cleaning, outlier detection and remo
 Next, a machine learning Linear Regression model using Scikit-Learn is trained and created using the processed dataset.  
 The next step involves developing a Python Flask server that utilizes the saved model to serve HTTP requests, followed by the development of a user-friendly website in HTML, CSS, and JavaScript.  
 The website allows users to input information such as house area, number of bedrooms, number of bathrooms and location which calls the Flask server to retrieve the predicted price and display on the website.  
+
+![image](https://user-images.githubusercontent.com/95976290/225998445-9070dc29-ba34-42fb-918c-fa62b53dc5ee.png)
+
