@@ -11,7 +11,7 @@ Project Description:
 5.Created a user-friendly website in HTML, CSS, and JavaScript that allowed users to input property details and obtain accurate price predictions.  
   
 First, Data Preprocessing- data loading and cleaning, outlier detection and removal, feature engineering, dimensionality reduction, and hyperparameter tuning using GridSearchCV and K-fold cross-validation is performed on the Bangalore home prices dataset.  
-Next, a machine learning Linear Regression model using Scikit-Learn is trained and created using the processed dataset.  
+Next, multiple models like Lasso Regression, Decision Tress and SVM are trained along with hyperparameter tuning using GridSearchCV to select the best model.
 The next step involves developing a Python Flask server that utilizes the saved model to serve HTTP requests, followed by the development of a user-friendly website in HTML, CSS, and JavaScript.  
 The website allows users to input information such as house area, number of bedrooms, number of bathrooms and location which calls the Flask server to retrieve the predicted price and display on the website.  
 
